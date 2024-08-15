@@ -135,4 +135,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://normal-pneumonia-classifier-297bd307ee10.herokuapp.com/']
+CSRF_TRUSTED_ORIGINS = ['https://normal-pneumonia-classifier-297bd307ee10.herokuapp.com']
