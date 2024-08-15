@@ -1,1 +1,1 @@
-web: gunicorn classifier.wsgi --log-file -
+web: waitress-serve --port=$PORT classifier.wsgi:application
